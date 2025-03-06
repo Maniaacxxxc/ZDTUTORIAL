@@ -25,16 +25,3 @@ proxies:
       headers:
         Host: nuclear.us.kg
     udp: true
-  - name: Amazon.com, Inc.
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: f7e665c7-cb72-465d-8d79-404264b073bc
-    skip-cert-verify: true
-    sni: nuclear.us.kg
-    network: ws
-    ws-opts:
-      path: /free/13.250.38.94:443
-      headers:
-        Host: nuclear.us.kg
-    udp: true
