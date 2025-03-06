@@ -1,0 +1,40 @@
+proxies:
+  - name: SG Akamai Connected
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: fac33390-b333-4426-9a60-be96f5fe9e88
+    skip-cert-verify: true
+    sni: nuclear.us.kg
+    network: ws
+    ws-opts:
+      path: /free/103.3.60.117:587
+      headers:
+        Host: nuclear.us.kg
+    udp: true
+  - name: HUAWEI CLOUDS
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 04b5944f-977f-476e-a4de-27726db99656
+    skip-cert-verify: true
+    sni: nuclear.us.kg
+    network: ws
+    ws-opts:
+      path: /free/101.44.163.253:21578
+      headers:
+        Host: nuclear.us.kg
+    udp: true
+  - name: Amazon.com, Inc.
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: f7e665c7-cb72-465d-8d79-404264b073bc
+    skip-cert-verify: true
+    sni: nuclear.us.kg
+    network: ws
+    ws-opts:
+      path: /free/13.250.38.94:443
+      headers:
+        Host: nuclear.us.kg
+    udp: true
