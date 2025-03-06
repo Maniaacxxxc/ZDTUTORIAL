@@ -1,0 +1,27 @@
+proxies:
+  - name: ID PT Pusat Media Indonesia
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 1b122a44-fa9a-4765-94bf-b37dfcde6d2e
+    skip-cert-verify: true
+    sni: nuclear.us.kg
+    network: ws
+    ws-opts:
+      path: /free/103.6.207.108:8080
+      headers:
+        Host: nuclear.us.kg
+    udp: true
+  - name: PT. NEWTON CIPTA INFORMATIKA ID
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 2852b8df-42bb-4068-9ae0-b659abb8870c
+    skip-cert-verify: true
+    sni: nuclear.us.kg
+    network: ws
+    ws-opts:
+      path: /free/103.63.101.10:443
+      headers:
+        Host: nuclear.us.kg
+    udp: true
