@@ -1,4 +1,17 @@
 proxies:
+  - name: ID Google LLC
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 97be2f9e-2d8e-4962-9429-f1cf2d817512
+    skip-cert-verify: true
+    sni: proxy.yudhy.net
+    network: ws
+    ws-opts:
+      path: /ID6
+      headers:
+        Host: proxy.yudhy.net
+    udp: true
   - name: ID PT Pusat Media Indonesia
     server: quiz.vidio.com
     port: 443
