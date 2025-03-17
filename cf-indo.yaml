@@ -1,5 +1,5 @@
 proxies:
-  - name: ID Alibaba us Technology
+  - name: 🇮🇩 Alibaba us Technology
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: proxy.yudhy.net
     udp: true
-  - name: ID PT Pusat Media Indonesia
+  - name: 🇮🇩 PT Pusat Media Indonesia
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -25,7 +25,7 @@ proxies:
       headers:
         Host: nuclear.us.kg
     udp: true
-  - name: PT. NEWTON CIPTA INFORMATIKA ID
+  - name: PT. NEWTON CIPTA INFORMATIKA 🇮🇩
     server: quiz.vidio.com
     port: 443
     type: trojan
@@ -37,4 +37,34 @@ proxies:
       path: /free/103.63.101.10:443
       headers:
         Host: nuclear.us.kg
+    udp: true
+  - name: 🇮🇩 Akamai Technologies 1
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: 745e244c-2fb4-4a4a-981f-365df846e328
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com.bit.z-black.xyz
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/172.232.239.147-587
+      headers:
+        Host: quiz.int.vidio.com.bit.z-black.xyz
+    udp: true
+  - name: 🇮🇩 Google LLC 2
+    server: quiz.int.vidio.com
+    port: 443
+    type: vless
+    uuid: eaa4b411-c957-4f87-89d5-3c6e5d254c4b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: quiz.int.vidio.com.bit.z-black.xyz
+    network: ws
+    ws-opts:
+      path: /Free/TG-at-BitzBlack/35.219.50.99-443
+      headers:
+        Host: quiz.int.vidio.com.bit.z-black.xyz
     udp: true
