@@ -1,40 +1,751 @@
 proxies:
-  - name: SG Akamai Connected
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: fac33390-b333-4426-9a60-be96f5fe9e88
-    skip-cert-verify: true
-    sni: nuclear.us.kg
-    network: ws
-    ws-opts:
-      path: /free/103.3.60.117:587
-      headers:
-        Host: nuclear.us.kg
-    udp: true
-  - name: HUAWEI CLOUDS
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 04b5944f-977f-476e-a4de-27726db99656
-    skip-cert-verify: true
-    sni: nuclear.us.kg
-    network: ws
-    ws-opts:
-      path: /free/101.44.163.253:21578
-      headers:
-        Host: nuclear.us.kg
-    udp: true
-  - name: Amazon.com, Inc.
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: f7e665c7-cb72-465d-8d79-404264b073bc
-    skip-cert-verify: true
-    sni: nuclear.us.kg
-    network: ws
-    ws-opts:
-      path: /free/13.250.38.94:443
-      headers:
-        Host: nuclear.us.kg
-    udp: true
+- name: 🇸🇬 (SG) Regxa Cloud 1
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: ccec40b3-3b12-46f5-811e-b4c5cb42df2e
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/206.206.76.208-2053
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 2
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: b96b5271-1103-4793-9bca-7527291db5dd
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/138.2.95.33-17465
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 3
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: b0f86cf9-92fa-4891-8a9d-6c9c641e75c2
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/152.69.221.114-23302
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Akamai Connected Cloud 4
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 8ff73ab9-1733-4da8-be01-4a418716989e
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/139.162.33.248-587
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 5
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: b8fec510-432a-43d2-a90c-e186d8edd5e2
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/129.150.58.86-57621
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Leaseweb Asia 6
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 8432077e-0bd3-41bb-8513-d88d3a996a61
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/167.253.158.63-8443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 7
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 5a908a73-1a7e-45a0-89dc-b220fff53067
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/213.35.125.129-6434
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 8
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 057e20d5-0f5d-41d9-8530-00de680db10f
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/158.178.246.142-61731
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Leaseweb Asia 9
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 62cd55ef-ce89-4060-9922-6f900f714f4b
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/194.127.193.240-50791
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Cloudflare Warp 10
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: b216f89f-c21d-42c8-a573-d865ec69b5d8
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/138.2.74.219-28616
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 11
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 93e0370c-7ba7-47f2-b5db-f5f841e2c3e4
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/213.35.108.135-12596
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Cloudflare Warp 12
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 9e951b2c-e847-4230-8d2e-e561e5bc758e
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/158.178.240.232-10258
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Neapol Group Ltd 13
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 57ad993c-7a18-42b0-a906-6f18017a813a
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/194.36.179.17-8443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) GoDaddycom LLC 14
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: a0b052de-ff1b-4211-8050-f9220aca8b15
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/97.74.82.87-45837
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) M247 Europe 15
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 05b5b2e4-d1b3-4bb9-8a9f-28e1c87e8474
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/84.247.49.211-8443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Neapol Group Ltd 16
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 0c42ad3d-9186-4b13-8c57-01b8b0a6cff3
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/194.36.179.5-2053
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 17
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 2786e768-fea5-4fda-95b9-433d2b9fb5f9
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/213.35.107.73-443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Akamai Connected Cloud 18
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: cb2abc54-5030-4c40-927d-eed25a67cdcf
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/103.3.63.253-46683
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Digital Ocean 19
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 1e99513c-86e3-4b1c-88fc-f7c7a6887986
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/68.183.179.5-2053
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 20
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: dc9419d3-fa30-44d5-8fc3-cb1637cd70ed
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/138.2.77.179-30018
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Regxa Cloud 21
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: c5711210-615a-4aae-85ff-99d1167c9366
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/206.206.76.208-8443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Streamline Servers 22
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 1f207888-e358-4741-aeef-ca51165bc863
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/83.142.30.5-2096
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Chelyabinsk-Signal 23
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 76eb3120-c378-4007-92c0-c7a539b94ff9
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/31.192.238.71-8443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 24
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: a689fe0d-45ee-453a-8357-946a1cb64189
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/168.138.166.213-10500
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Vultr 25
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 92c22cd0-03b4-455b-8a93-1972c9ac8c4b
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/45.76.156.96-2053
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Vultr 26
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: a48b76c4-2f5e-4fcf-b3a1-faaa5daf8c28
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/139.180.215.77-57878
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Tencent cloud computing 27
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 394baeab-bd76-4fde-938a-23afb9c2772d
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/43.156.26.205-23654
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 28
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: cbcbd419-7398-44fc-9869-c0f2d96dca82
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/158.178.243.152-61731
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) LEASEWEB SINGAPORE PTE. 29
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 97d0ef12-3519-4f98-800c-f61b0c749a8b
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/194.127.193.124-24467
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Tencent cloud computing 30
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 27fdb9ee-742b-4c15-8313-9f95a2a6f807
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/43.156.97.73-57145
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 31
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: db47c840-1cd3-4b7a-8d11-bcdf39b1f7df
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/146.235.18.248-45137
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 32
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 11f3c085-0bf2-4dc9-93b2-44f4bbff568c
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/152.69.220.136-53076
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 33
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 1f09887e-0e33-4e3c-bb80-b47aeff1c830
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/129.150.36.188-53435
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Digital Ocean 34
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: b1717ee0-4446-4d43-98e6-b369cab1811d
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/188.166.199.61-443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) M247 Europe 35
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 97790613-29c3-4f7d-b02a-fadb44272f07
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/84.247.49.210-8443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) CTG Server 36
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 3cdfe4db-689c-4dd7-9bf0-7a328b90f835
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/134.122.185.75-25507
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Tencent cloud computing 37
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 3750e3f8-f5d2-407b-9011-45372ae26957
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/101.32.247.126-725
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 38
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 4febd311-4c8e-4132-bb4d-0f2dfdd7f3a1
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/138.2.90.127-55555
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Contabo Asia Private 39
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 6cfcc680-4bbc-462c-9544-f061659ad640
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/62.72.46.14-8443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Tencent cloud computing 40
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: e981234a-7447-49ea-9ae8-5ee977b0726d
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/43.134.181.60-38371
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Onidel 41
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: fd819a10-5dc4-40ca-9ccc-5a48ca188fa6
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/160.22.79.174-443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Streamline Servers 42
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 7e5b0e73-023f-4236-9114-1504f1a74d14
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/83.142.30.4-2096
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 43
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 5d75a342-9245-42ae-a80e-13045af33daf
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/138.2.77.179-30018
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Akamai Connected Cloud 44
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: c811febb-68dc-4e83-aa6d-06e71d18c41a
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/139.162.33.248-587
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 45
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 47770f02-0505-4e7c-b224-66ca203a0eb5
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/213.35.108.135-12596
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Digital Ocean 46
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: b370c804-7c97-41a7-8602-0f62d5610f98
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/146.190.111.165-443
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Akamai Connected Cloud 47
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 56e43b77-160a-45d1-aa60-d0197adad594
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/143.42.68.97-17055
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 48
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: acb8f490-832a-46ff-8f23-df276893f2fa
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/146.235.18.248-45137
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Oracle Cloud 49
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: c2868f9b-1ed5-4479-8085-511541a0db78
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/129.150.49.58-18650
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
+- name: 🇸🇬 (SG) Cloudflare Warp 50
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: d1b10e24-b373-445e-8782-b019f4cbb823
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  network: ws
+  servername: quiz.int.vidio.com.bit.z-black.xyz
+  ws-opts:
+    path: /Free/TG-at-BitzBlack/138.2.74.219-28616
+    headers:
+      Host: quiz.int.vidio.com.bit.z-black.xyz
