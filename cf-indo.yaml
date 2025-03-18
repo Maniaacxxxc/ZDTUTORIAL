@@ -68,3 +68,55 @@ proxies:
       headers:
         Host: quiz.int.vidio.com.bit.z-black.xyz
     udp: true
+  - name: Alibaba2 🇮🇩
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 47517441-8be8-413c-bda8-68651fea0199
+    skip-cert-verify: true
+    sni: webproxy.my.id
+    network: ws
+    ws-opts:
+      path: /YudhyNet-ID11
+      headers:
+        Host: webproxy.my.id
+    udp: true
+  - name: Google Cloud2 🇮🇩
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 47517441-8be8-413c-bda8-68651fea0199
+    skip-cert-verify: true
+    sni: webproxy.my.id
+    network: ws
+    ws-opts:
+      path: /YudhyNet-ID6
+      headers:
+        Host: webproxy.my.id
+    udp: true
+  - name: Amazon.com 🇮🇩
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 47517441-8be8-413c-bda8-68651fea0199
+    skip-cert-verify: true
+    sni: webproxy.my.id
+    network: ws
+    ws-opts:
+      path: /YudhyNet-ID8
+      headers:
+        Host: webproxy.my.id
+    udp: true
+  - name: First Cagayan Converge Data Center Inc 🇮🇩
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: 47517441-8be8-413c-bda8-68651fea0199
+    skip-cert-verify: true
+    sni: webproxy.my.id
+    network: ws
+    ws-opts:
+      path: /YudhyNet-ID4
+      headers:
+        Host: webproxy.my.id
+    udp: true
